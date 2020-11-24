@@ -1,0 +1,57 @@
+.graph{
+  height: 500px;
+}
+
+.vacations{
+  margin-top: 3%;
+  transform: translateX(-20%); 
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  width: 70vw;
+  height: 68vh;
+  justify-content:space-evenly ;
+}
+
+
+.vacation{
+  height: 250px; 
+    position: relative;
+}
+
+.header{
+  margin-top: 50px;
+  background-color: #3f51b5;
+  color: white;
+  padding: 20px;
+  font-size: 60px;
+  text-align: center;
+}
+
+.picture{
+  height: 140;
+}
+
+.biggerText{
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.reports_header{
+  font-size: 2.5em;
+  margin-left: 20%;
+  font-style: italic;
+}
+
+
+.flex-buttons{
+  display: flex; 
+  justify-content: flex-end;
+}
+
+
+.flex-login{
+display: flex;
+justify-content: space-between;
+}
