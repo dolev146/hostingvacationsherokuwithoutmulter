@@ -53,21 +53,21 @@ export default function Vacations({ history }) {
 
     return (
         <div className="container">
-            <h1 className="header"><FlightIcon fontSize="large" /> vacations</h1>
-
-            <div >
+            <h1 className="header"><FlightIcon fontSize="large" /> vacations   <div >
                 {user.login ? (<div className="flex-login">
                     <h1>Hello {user.fname} </h1> <span className="logout-btn"><Logout /></span>
                 </div>
                 ) : (
                         <>
                             <div className="flex-buttons">
-                                <Link className="btn btn-primary" to="/login">login</Link>
+                                <Link className="btn btn-light" to="/login">login</Link>
                                 <Link className="btn btn-success" to="/signup" >signup</Link>
                             </div>
                         </>
                     )}
-            </div>
+            </div></h1>
+
+          
 
             <Searchbar update={setvacations} />
             <NoResultBar />
