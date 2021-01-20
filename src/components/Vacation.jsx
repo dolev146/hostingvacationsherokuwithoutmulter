@@ -115,7 +115,7 @@ export default function Vacation({ vacation, update, show }) {
     }
 
     return (<>
-        <Card className={classes.root}>
+        <Card className={classes.root + " vacation"}>
             <CardHeader
                 title={vacation.dest}
                 subheader={FormatDates(vacation.dept, vacation.arv)}
