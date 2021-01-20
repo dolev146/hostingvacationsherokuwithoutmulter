@@ -8,9 +8,7 @@
   margin-left: auto;
   display: flex;
   flex-wrap: wrap;
-  overflow-y: auto;
-  width: 70vw;
-  height: 68vh;
+  width: 100vw;
   justify-content:space-evenly ;
 }
 
@@ -54,4 +52,10 @@
 .flex-login{
 display: flex;
 justify-content: space-between;
+}
+
+
+.subheader{
+  font-size: small;
+  text-align: end;
 }

@@ -39,9 +39,9 @@ export default function Login({ history }) {
 
     return (
         <div className="container">
-            <h1 className="header">Login</h1>
+            <h1 className="header">Login   <p className="mb-3 mt-3 ml-3 subheader" >dont have an account yet? <Link className="btn btn-success btn-sm" to="/signup" >signup</Link> </p></h1>
 
-            <p className="mb-3 mt-3 ml-3" >dont have an account yet? <Link className="btn btn-success btn-sm" to="/signup" >signup</Link> </p>
+          
 
 
             <form onSubmit={handleSubmit}>
@@ -54,6 +54,12 @@ export default function Login({ history }) {
                     <button className="btn btn-primary">login</button>
                 </div>
             </form>
+
+            <p>Admin: <br/>
+              username:  dolevdo  <br />
+               password: 123</p>
         </div>
+
+        
     )
 }
