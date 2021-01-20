@@ -90,7 +90,7 @@ export default function Vacations({ history }) {
 
             {
                 <div className="vacations">
-                    {vacations.map(f => (<Vacation show={show} update={setvacations} key={f.id} vacation={f} />))}
+                    {vacations.map(f => (<Vacation className="vacation" show={show} update={setvacations} key={f.id} vacation={f} />))}
                 </div>
             }
 
