@@ -17,6 +17,10 @@ app.use("/public",express.static("public"))
 const buildPath = path.join(__dirname, '..', 'build');
 app.use(express.static(buildPath));
 
+app.get("*", (req, res) => {
+  res.redirect("/");
+});
+
 const PORT = process.env.PORT || 1000;
 
 // listiner
