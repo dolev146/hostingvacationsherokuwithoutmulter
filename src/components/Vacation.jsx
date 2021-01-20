@@ -12,11 +12,11 @@ import clsx from 'clsx';
 const useStyles = makeStyles((theme) => ({
     root: {
         maxWidth: 345,
+        marginTop: '10px'
     },
     media: {
         height: 0,
         paddingTop: '56.25%', // 16:9
-        marginTop:'10px'
     },
     expand: {
         transform: 'rotate(0deg)',
